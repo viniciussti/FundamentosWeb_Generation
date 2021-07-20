@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Blog Pessoal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <ul>
+
+    <ul id="menu">
         <li>
-            <a href="index.html" >Home</a>
+            <a href="index.html">Home</a>
         </li>
         <li>
-            <a href="contato.html" >Contato</a>
+            <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre o Vinicius Teixeira</h1>
-    <p>Graduando em Sistemas de Informação e atualmente participando do Bootcamp da Generation Brasil com formação para Desenvolvedor Full Stack Java Jr.
-    </p> <p> Entusiasta em programação, gosto de desafios e uso a tecnologia a favor de buscar soluções e inovações. 
-    </p> <p> Formação em montagem e manutenção de computadores e inglês intermediário.</p>
-    <img src="assets/img/eufoto.jpg" height="560" width="315" alt="Minha foto">
+    <div class="container">
+        <div class="p-50">
+            <h1>Sobre o Vinicius Teixeira</h1>
+            <p class="justify">Graduando em Sistemas de Informação e atualmente participando do Bootcamp da Generation Brasil com
+                formação para Desenvolvedor Full Stack Java Jr.
+            </p>
+            <p class="justify"> Entusiasta em programação, gosto de desafios e uso a tecnologia a favor de buscar soluções e inovações.
+            </p>
+            <p class="justify"> Formação em montagem e manutenção de computadores e inglês intermediário.</p>
+        </div>
+        <p>
+        <div>
+            <img class="br p-50" src="assets/img/eufoto.jpg" height="360" width="315" alt="Minha foto">
+        </div>
 
-<p>
-    <iframe width="560" height="315" 
-src="https://www.youtube.com/embed/h5r9WLvgcb0" 
-title="YouTube video player" 
-frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-</p>
+        </p>
+    </div>
+
+    <h2>Minha música favorita</h2>
+
+    <div class="container margin-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h5r9WLvgcb0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <hr>
+    <footer>
+
+        <div class="container">
+            <a href="https://github.com/viniciussti" target="_blank">
+                <img class="tm-social p-50" src="assets/img/github.png" alt="Logo do Github">
+            </a>
+            <a href="https://www.linkedin.com/in/vinicius-teixeira-ti/" target="_blank">
+                <img class="tm-social p-50" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+
+            <a href="https://www.instagram.com/viniciusstx/" target="_blank">
+                <img class="tm-social p-50" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+
+        </div>
+
+        <p class="p">
+            Todos os direitos reservados: Vinicius Teixeira &copy
+        </p>
+    </footer>
 </body>
+
 </html>
