@@ -64,7 +64,10 @@ h2{
 
   
 body{
-    background-color:bisque
+    background-color:bisque;
+    
+  /*  background-image: url(../img/outrofundo.png);*/
+
 }
 
 /* Estilos da página contato.html */
